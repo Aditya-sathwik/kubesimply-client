@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
           <ul className={styles.sidebar_links}>
             <li>
-              <a href="/about" style={{ color: "#1B2731" }}>
+              <a href="#mission" style={{ color: "#1B2731" }}>
                 <FaInfoCircle className={styles.icon} /> About
               </a>
             </li>
@@ -73,13 +73,13 @@ const Navbar = () => {
                 <FaPencilAlt className={styles.icon} /> Blog Content
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/ambassadors" style={{ color: "#1B2731" }}>
                 <FaUsers className={styles.icon} /> Kubesimplify Ambassador
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="/workshops" style={{ color: "#1B2731" }}>
+              <a href="#workshops" style={{ color: "#1B2731" }}>
                 <FaClipboardList className={styles.icon} /> Workshops
               </a>
             </li>
@@ -126,7 +126,7 @@ const Navbar = () => {
         <div className={`${styles.mobile_sidebar} ${menuOpen ? styles.mobile_sidebar_active : ""}`}>
           <ul className={styles.mobile_links}>
             <li>
-              <a href="/about" style={{ color: "#1B2731" }}>
+              <a href="#mission" style={{ color: "#1B2731" }}>
                 <FaInfoCircle className={styles.icon} /> About
               </a>
             </li>
@@ -154,13 +154,13 @@ const Navbar = () => {
                 <FaPencilAlt className={styles.icon} /> Blog Content
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/ambassadors" style={{ color: "#1B2731" }}>
                 <FaUsers className={styles.icon} /> Kubesimplify Ambassador
               </a>
-            </li>
+            </li> */}
             <li>
-              <a href="/workshops" style={{ color: "#1B2731" }}>
+              <a href="#workshops" style={{ color: "#1B2731" }}>
                 <FaClipboardList className={styles.icon} /> Workshops
               </a>
             </li>

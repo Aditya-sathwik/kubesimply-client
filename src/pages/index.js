@@ -11,7 +11,8 @@ import Hero from '@site/src/components/ambassadors/Hero';
 import FAQs from '@site/src/components/ambassadors/FAQs';
 import Team from '@site/src/components/team/Team';
 import Sidebar from '../theme/Sidebar';
-
+import Social from '@site/src/components/Social';
+import Footer from '@site/src/theme/Footer';
 export default function Home() {
   return (
     <CustomLayout>
@@ -19,14 +20,15 @@ export default function Home() {
       <section id="features"><HomepageFeatures /></section>
       <section id="mission"><Mission /></section>
       <section id="reach"><Reach /></section>
-      <section id="reach"><Reach /></section>
+      <section id="Social"><Social /></section>
       <section id="founder"><Founder /></section>
       <section id="workshops"><LiveWorkshop /></section>
-      <section id="hero"><Hero /></section>
+      {/* <section id="hero"><Hero /></section> */}
       <section id="criteria"><Criteria /></section>
       <section id="benefits"><Benifits /></section>
-      <section id="team"><Team heading={"Current Ambassadors"} slider={false} /></section>
+      {/* <section id="team"><Team heading={"Current Ambassadors"} slider={false} /></section> */}
       <section id="faqs"><FAQs /></section>
+      <section id="footer"><Footer /></section>
     </CustomLayout>
   );
 }

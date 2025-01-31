@@ -173,7 +173,11 @@ width: 100%;
   .sidebar {
     display: none;
   }
-
+  .navbar {
+    width: auto;
+ 
+    
+  }
   .mobile_menu_icon {
     display: block;
   }

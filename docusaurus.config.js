@@ -74,51 +74,7 @@ const config = {
 
     (
       {
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Notes",
-                to: "/docs",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "LinkedIn",
-                href: "https://www.linkedin.com/company/kubesimplify/",
-              },
-              {
-                label: "Discord",
-                href: "https://discord.gg/HpAym4xQkc",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/kubesimplify",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/kubesimplify",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

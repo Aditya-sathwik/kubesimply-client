@@ -24,9 +24,8 @@
   .custom-sidebar a:hover {
     background-color: #575757;
   }
-/*   
+  
   .main-content {
-    margin-left: 250px; 
-    padding: 20px;
+z-index: 9999;
     flex-grow: 1; 
-  } */
+  }
