@@ -1,0 +1,26 @@
+.sidenavbar {
+  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  justify-content: center;
+  background-color: #1b2731;
+  height: 70px;
+  width: 100%;
+}
+
+.sidenav_content > svg {
+  width: 250px;
+}
+
+.sidenavbar > a {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .sidenavbar {
+    display: flex;
+  }
+  
+}

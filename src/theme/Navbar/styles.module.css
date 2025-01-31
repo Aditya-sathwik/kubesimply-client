@@ -1,0 +1,180 @@
+/* ========== COMMON STYLES ========== */
+.navbar {
+  width: 100%;
+
+  box-shadow: #222;
+  z-index: +9999999;
+  
+}
+
+
+
+
+
+
+/* ========== MAIN CONTENT AREA ========== */
+
+
+
+/* ========== DESKTOP SIDEBAR (STATIC) ========== */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar_logo a {
+  display: flex;
+  justify-content: left;
+}
+
+.logo {
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+.sidebar_links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  list-style: none;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.sidebar_links li {
+  width: 100%;
+  /* text-align: center; */
+  /* padding: 15px 20px; */
+  /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); */
+
+  border-bottom: 1px solid #c0b5b5;
+
+  margin: 10px 2px;
+/* 
+  background: -webkit-linear-gradient(111.84deg, #5CFF68 12.29%, #05CAFF 112.72%); */
+
+  justify-content: space-between;
+}
+
+
+.icon {
+  margin-right: 8px; /* Space between the icon and text */
+  color: #1B2731;    /* Ensure the icon is the correct color */
+}
+
+.sidebar_links li a {
+  text-decoration: none;
+  color: #1B2731;
+
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
+  margin: 10px 0px;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+}
+
+/* ========== MOBILE MENU BUTTON ========== */
+.mobile_menu_icon {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: +999999999;
+}
+
+
+
+.navbarbutton {
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: 'Poppins';
+  padding:  10px 15px;
+  border: solid 2px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(95.81deg, #34EF42 -23.83%, #27C9F4 121.82%);
+  background-origin: border-box;
+  box-shadow: 2px 900px 1px #ffffff inset;
+}
+
+
+.navbar_text{
+  font-size: 17px;
+  font-family: 'Poppins';
+  color: linear-gradient(95.81deg, #34EF42 -23.83%, #27C9F4 121.82%);;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* ========== MOBILE SLIDE-IN SIDEBAR ========== */
+.mobile_sidebar {
+  position: fixed;
+  top: 0;
+  left: -100%;
+  width: 80%;
+  height: 120vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  padding: 10px 20px;
+  transition: left 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+
+
+.mobile_sidebar_active {
+  left: 0;
+}
+
+.mobile_links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 20px;
+  width: 100%;
+}
+
+.mobile_links li {
+  
+  padding: 15px 0;
+  border-bottom: 1px solid #c0b5b5;
+width: 100%;
+  margin: 10px 2px;
+}
+
+.mobile_links li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: block;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media screen and (max-width: 780px) {
+  .sidebar {
+    display: none;
+  }
+
+  .mobile_menu_icon {
+    display: block;
+  }
+}

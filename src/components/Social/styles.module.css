@@ -1,0 +1,61 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.social_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.social_card {
+  display: flex;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top: 10px solid #34EF42;
+  transition: transform 0.3s ease;
+}
+
+.social_card:hover {
+  transform: translateY(-5px);
+}
+
+.icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
+
+}
+
+.text_content_h {
+  margin: 0 0 0.5rem 0;
+  font-size: 17px;
+  font-family: 'Poppins';
+  color: linear-gradient(95.81deg, #34EF42 -23.83%, #27C9F4 121.82%);
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.text_content p {
+  margin: 0.2rem 0;
+  color: #718096;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
