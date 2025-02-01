@@ -28,7 +28,7 @@ export default function HomepageFeatures() {
             <p className={styles.hp_cont_1_p1}>
               On a mission to <br />
               Simplify <span className={styles.hp_cont_1_cloud}>
-                cloud native, wasam  And AI
+                cloud native, Wasm  And AI
               </span>{" "}
               <br />
               to everyone.
@@ -88,7 +88,7 @@ export default function HomepageFeatures() {
         {/* second portion(container) of the homepage */}
         <div className={styles.hp_cont_3}>
           <div className={styles.hp_cont_3_h1}>
-          <h1>Learn cloud native</h1>
+          <h1>Learn Cloud Native,Wasm And Ai</h1>
           </div>
           <div className={styles.hp_cont_3_section}>
 
@@ -169,7 +169,7 @@ export default function HomepageFeatures() {
               We regularly organize workshops on various topics like{" "}
               <span className={styles.hp_cont_4_kubernetes}>
                 {" "}
-                kubernetes and cloud native.{" "}
+                kubernetes , cloud native,Wasm and AI.{" "}
               </span>
               These workshops give you insights into the best{" "}
               <span className={styles.hp_cont_4_projects}>

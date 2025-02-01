@@ -61,7 +61,7 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/channel/UC1pZtQzFZMuB8EUNM6G9vTg" target="_blank" style={{ color: "#1B2731" }}>
+                    <a href="https://www.youtube.com/@kshindi" target="_blank" style={{ color: "#1B2731" }}>
                       Hindi Channel
                     </a>
                   </li>
@@ -142,7 +142,7 @@ const Navbar = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/channel/UC1pZtQzFZMuB8EUNM6G9vTg" target="_blank" style={{ color: "#1B2731" }}>
+                    <a href="https://www.youtube.com/@kshindi" target="_blank" style={{ color: "#1B2731" }}>
                       Hindi Channel
                     </a>
                   </li>
