@@ -59,7 +59,8 @@ function Footer() {
       </div>
       <hr className={styles.hr}></hr>
       <div className={styles.footer_lower}>
-        <div className={styles.end_first}>© 2025 Kubesimplify</div>
+        {/* <div className={styles.end_first}>© 2025 Kubesimplify</div> */}
+        <div className={styles.end_first}>Designed by Websurface 2025</div>
         <div className={styles.footer_mail}>
           <IoMdMail className={styles.mail_logo} row="img" />
           <a className={styles.mail_title} href="mailto:kubesimplify@gmail.com">
