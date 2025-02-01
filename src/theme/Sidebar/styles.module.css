@@ -10,15 +10,15 @@
 }
 
 .sidenav_content > svg {
-  width: 250px;
+  width: 200px;
 }
 
-.sidenavbar > a {
+.sidenavbar > svg {
   display: flex;
   align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 880px) {
   .sidenavbar {
     display: flex;
   }

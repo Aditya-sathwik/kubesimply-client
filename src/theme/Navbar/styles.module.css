@@ -18,7 +18,7 @@
 
 /* ========== DESKTOP SIDEBAR (STATIC) ========== */
 .sidebar {
-  width: 200px;
+  width: 20%;
   height: 100vh;
   background-color: #ffffff;
   position: fixed;
@@ -48,11 +48,11 @@
 
   list-style: none;
   padding: 0px 10px;
-  width: 100%;
+
 }
 
 .sidebar_links li {
-  width: 100%;
+  
   /* text-align: center; */
   /* padding: 15px 20px; */
   /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); */
@@ -169,7 +169,7 @@ width: 100%;
 }
 
 /* ========== RESPONSIVE DESIGN ========== */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 880px) {
   .sidebar {
     display: none;
   }
@@ -182,3 +182,74 @@ width: 100%;
     display: block;
   }
 }
+@media screen and (max-width: 1530px) {
+  .sidebar {
+    width: 15%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .sidebar_links li a {
+
+    font-size: 14px;
+
+  }
+
+
+  .logo {
+    width: 140px;
+
+  }
+
+.navbarbutton {
+
+    padding:  10px 10px;
+    
+  }
+  
+  
+  .navbar_text{
+    font-size: 14px;
+
+  }
+}
+@media screen and (max-width: 1030px) {
+  .sidebar_links li a {
+
+    font-size: 12px;
+
+  }
+
+  .logo {
+    width: 120px;
+
+  }
+
+
+  .navbarbutton {
+
+    padding:  7px 7px;
+    
+  }
+  
+  
+  .navbar_text{
+    font-size: 10px;
+
+  }
+
+
+}
+
+
+

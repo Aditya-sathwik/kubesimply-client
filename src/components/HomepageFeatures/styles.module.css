@@ -5,6 +5,7 @@
 .hp {
     font-family: 'Poppins';
     font-style: normal;
+    margin-top: 80px;
 }
 a {
     text-decoration: none;
@@ -18,6 +19,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     margin: auto;
+    margin-top: 10px;
 }
 
 .cont_1_content {

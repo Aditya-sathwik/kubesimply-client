@@ -4,13 +4,13 @@
     height: 100vh; /* Full height of the viewport */
   }
   
-  .custom-sidebar {
-    width: 250px;
+  /* .custom-sidebar {
+    width: 210px;
     background-color: #111;
     padding-top: 20px;
-    position: fixed; /* Keep it fixed on the left */
+    position: fixed; 
     height: 100%;
-    z-index: 1000; /* Ensure the sidebar is on top */
+    z-index: 1000; 
   }
   
   .custom-sidebar a {
@@ -19,13 +19,29 @@
     font-size: 18px;
     color: white;
     display: block;
-  }
+  } */
   
   .custom-sidebar a:hover {
     background-color: #575757;
   }
   
   .main-content {
-z-index: 9999;
+     z-index: 9999;
+  padding: 20px;
     flex-grow: 1; 
+  }
+
+  @media screen and (max-width: 1330px) {
+    .main-content {
+      z-index: 9999;
+      width: fit-content;
+     flex-grow: 1; 
+   }
+    
+  }
+  @media screen and (max-width: 880px) {
+    .main-content {
+    padding: 0px;
+   }
+    
   }

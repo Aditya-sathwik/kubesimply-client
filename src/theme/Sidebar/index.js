@@ -1,16 +1,17 @@
 import React from "react";
 import Link from "@docusaurus/Link";
-import Images from "./Images";
+import Imgs from "./Imgs";
 import styles from "./styles.module.css";
 
 const Sidebar = () => {
-  return (
-    <nav className={styles.sidenavbar}>
-    <a className={styles.sidenav_content} href="/" >
-      <Images/>
-    </a>
-  </nav>
-  );
+ return (
+ <nav className={styles.sidenavbar}>
+        <Link className={styles.sidenav_content} to="/">
+
+        <Imgs/>
+       </Link>
+ </nav>
+ );
 };
 
 export default Sidebar;

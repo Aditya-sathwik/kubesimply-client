@@ -29,28 +29,28 @@ export default function Social () {
       title: 'morly 10k followers',
       lines: ['some cases adjustments.', 'reason performance']
     },
-    // { 
-    //   id: 4,
-    //   name: 'LinkedIn',
-    //   icon: <FaLinkedin />,
-    //   color: '#0077b5',
-    //   title: 'Registration tests',
-    //   lines: ['get answers high costs', 'solutions from.']
-    // },
-    // { 
-    //   id: 5,
-    //   name: 'GitHub',
-    //   icon: <FaGithub />,
-    //   color: '#333',
-    //   title: 'Performance solutions',
-    //   lines: ['learn more about', 'some adjustments']
-    // }
+    { 
+      id: 4,
+      name: 'LinkedIn',
+      icon: <FaLinkedin />,
+      color: '#0077b5',
+      title: 'Registration tests',
+      lines: ['get answers high costs', 'solutions from.']
+    },
+    { 
+      id: 5,
+      name: 'GitHub',
+      icon: <FaGithub />,
+      color: '#333',
+      title: 'Performance solutions',
+      lines: ['learn more about', 'some adjustments']
+    }
   ];
 
 // ...existing code...
 return (
   <div className={styles.container}>
-    <h2 className={styles.heading}>Our  SOcial Media Highlights </h2>
+    <h2 className={styles.heading}>Our  Social Media Highlights </h2>
     <div className={styles.social_grid}>
       {socialMedia.map((item) => (
         <div key={item.id} className={styles.social_card}>
