@@ -26,6 +26,13 @@ const content = {
       All the money will be used to continue our mission of{" "}
       <b>providing simplified cloud native education to all</b> and make this
       community reach more number of people.
+      <br></br>
+      <br></br>
+
+      <button className={styles.application_btn}>
+              <a href="https://drive.google.com/file/d/1p_N3b66Md0heq8TOKRehGBBLBaAgGBDo/view?usp=sharing" target="_blank">Know More</a>
+            </button>
+         
     </>
   ),
 };

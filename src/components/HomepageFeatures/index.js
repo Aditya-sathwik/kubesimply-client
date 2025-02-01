@@ -179,7 +179,7 @@ export default function HomepageFeatures() {
               that are useful in the field of cloud native.
             </p>
             <button className={styles.hp_cont_4_btn1}>
-              <a href="https://drive.google.com/file/d/1p_N3b66Md0heq8TOKRehGBBLBaAgGBDo/view?usp=sharing" target="_blank">
+              <a href="https://www.youtube.com/live/PN3VqbZqmD8?si=aqvDA40eFSbzx1hY" target="_blank">
                 <p className={styles.hp_cont_4_btn1_content}>Learn more</p>
               </a>
             </button>
@@ -196,7 +196,7 @@ export default function HomepageFeatures() {
         {/* Workshop container end */}        
 
         {/*   Wanna contribute to Blog , container start  */}
-        <div className={styles.hp_cont_5}>
+        {/* <div className={styles.hp_cont_5}>
           <div className={styles.hp_cont_5_blog_contributor}>
             <p className={styles.hp_cont_5_blog_p1}>
               Want to write a blog for Kubesimplify? Become a
@@ -226,7 +226,7 @@ export default function HomepageFeatures() {
               alt="Blog"
             />
           </div>
-        </div>
+        </div> */}
         {/*   Wanna contribute to Blog , container end  */}
 
         {/* Want to apply, container start */}

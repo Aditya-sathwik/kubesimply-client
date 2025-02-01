@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
           <ul className={styles.sidebar_links}>
             <li>
-              <a href="#mission" style={{ color: "#1B2731" }}>
+              <a href="#About" style={{ color: "#1B2731" }}>
                 <FaInfoCircle className={styles.icon} /> About
               </a>
             </li>
@@ -74,7 +74,7 @@ const Navbar = () => {
               </a>
             </li>
             {/* <li>
-              <a href="#mission" style={{ color: "#1B2731" }}>
+              <a href="#About" style={{ color: "#1B2731" }}>
                 <FaUsers className={styles.icon} /> Mission
               </a>
             </li> */}
@@ -126,7 +126,7 @@ const Navbar = () => {
         <div className={`${styles.mobile_sidebar} ${menuOpen ? styles.mobile_sidebar_active : ""}`}>
           <ul className={styles.mobile_links}>
             <li>
-              <a href="#mission" style={{ color: "#1B2731" }}>
+              <a href="#About" style={{ color: "#1B2731" }}>
                 <FaInfoCircle className={styles.icon} /> About
               </a>
             </li>
@@ -155,7 +155,7 @@ const Navbar = () => {
               </a>
             </li>
             {/* <li>
-                          <a href="#mission" style={{ color: "#1B2731" }}>
+                          <a href="#About" style={{ color: "#1B2731" }}>
                 <FaUsers className={styles.icon} /> Mission
               </a>
             </li> */}

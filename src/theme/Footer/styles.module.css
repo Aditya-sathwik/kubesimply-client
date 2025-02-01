@@ -171,6 +171,22 @@
 }
 
 
+.application_btn{
+    padding: 0.5em 1em;
+    background: linear-gradient(94.34deg, #5CFF68 0%, #05CAFF 100%);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .application_btn > a {
+    color: #1b2731;
+    font-weight: 600;
+    font-size:  medium;
+  }
+
+
 @media only screen and (max-width: 700px) {
 
     .footer_upper {

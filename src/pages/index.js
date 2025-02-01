@@ -18,7 +18,7 @@ export default function Home() {
     <CustomLayout>
       <section id="Sidebar"><Sidebar/></section>
       <section id="features"><HomepageFeatures /></section>
-      <section id="mission"><Mission /></section>
+      <section id="About"><Mission /></section>
       <section id="reach"><Reach /></section>
       <section id="Social"><Social /></section>
       <section id="founder"><Founder /></section>

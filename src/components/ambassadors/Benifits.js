@@ -63,7 +63,7 @@ const Benifits = () => {
         ))}
       </div>
 
-      <div className={styles.ambassador}>
+      {/* <div className={styles.ambassador}>
         <div className={styles.application}>
           <div>
             <h1>Application</h1>
@@ -80,7 +80,7 @@ const Benifits = () => {
         <div className={styles.benefits_img}>
           <img className={styles.ambassador_img} src={ambassdors} alt="Blog" />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
