@@ -27,7 +27,7 @@ export default function Home() {
       <section id="criteria"><Criteria /></section>
       <section id="benefits"><Benifits /></section>
       {/* <section id="team"><Team heading={"Current Ambassadors"} slider={false} /></section> */}
-      <section id="faqs"><FAQs /></section>
+      {/* <section id="faqs"><FAQs /></section> */}
       <section id="footer"><Footer /></section>
     </CustomLayout>
   );
