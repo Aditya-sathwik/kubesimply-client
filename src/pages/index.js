@@ -21,7 +21,7 @@ export default function Home() {
       <section id="features"><HomepageFeatures /></section>
       <section id="About"><Mission /></section>
       <section id="reach"><Reach /></section>
-      <section id="Social"><Social /></section>
+      {/* <section id="Social"><Social /></section> */}
       <section id="founder"><Founder /></section>
       <section id="workshops"><LiveWorkshop /></section>
       {/* <section id="hero"><Hero /></section> */}
