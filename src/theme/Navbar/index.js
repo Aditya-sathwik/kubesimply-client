@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useCallback } from "react";
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 import styles from "./styles.module.css";
 import {
   FaBars,
@@ -29,15 +30,18 @@ const videoLinks = [
 ];
 
 const Navbar = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 880);
+  const [isMobile, setIsMobile] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [videoContentOpen, setVideoContentOpen] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= 880);
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    if (ExecutionEnvironment.canUseDOM) {
+      setIsMobile(window.innerWidth <= 880);
+      const handleResize = () => setIsMobile(window.innerWidth <= 880);
+      window.addEventListener("resize", handleResize);
+      return () => window.removeEventListener("resize", handleResize);
+    }
   }, []);
 
   const toggle = useCallback((setter) => setter((prev) => !prev), []);
