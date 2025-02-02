@@ -9,6 +9,7 @@ import {
   FaUsers,
   FaPencilAlt,
   FaClipboardList,
+  FaBookReader,
 } from "react-icons/fa";
 
 const navbarLogo = {
@@ -22,6 +23,7 @@ const navLinks = [
   { href: "https://blog.kubesimplify.com/", icon: <FaPencilAlt />, label: "Blog Content", external: true },
   { href: "#workshops", icon: <FaClipboardList />, label: "Workshops" },
   { href: "#Sponsers", icon: <FaUsers />, label: "Collaborators" },
+  { href: "https://discord.com/invite/26Z384WSPB", icon: <FaBookReader />, label: "Learn More" },
 ];
 
 const videoLinks = [

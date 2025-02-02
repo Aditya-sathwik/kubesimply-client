@@ -29,7 +29,7 @@ const LiveWorkshop = () => {
               cloud-native concepts and make them simple for anyone to
               understand. <br />
 
-              <strong>Our Kubernetes Workshop, for example, has garnered an incredible 1.7 million views!</strong>
+              <strong>Our Kubernetes Workshop, has garnered an incredible 1.7 million views!</strong>
               <br />
               We welcome you to yet another initiative on that path -{" "}
               <b>"Live Workshops"</b>

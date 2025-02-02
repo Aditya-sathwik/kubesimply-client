@@ -29,6 +29,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-y: auto;
 }
 
 .sidebar_logo a {
@@ -126,12 +127,12 @@
   top: 0;
   left: -100%;
   width: 80%;
-  height: 120vh;
+  height: 100%;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: left;
-
+overflow-y: auto;
   padding: 10px 20px;
   transition: left 0.3s ease-in-out;
   z-index: 1000;

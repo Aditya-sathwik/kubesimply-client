@@ -26,7 +26,7 @@ export default function HomepageFeatures() {
         <div className={styles.hp_cont_1}>
           <div className={styles.cont_1_content}>
             <p className={styles.hp_cont_1_p1}>
-              On a mission to <br />
+              On a mission to 
               Simplify <span className={styles.hp_cont_1_cloud}>
                 cloud native, Wasm  And AI
               </span>{" "}
@@ -35,14 +35,15 @@ export default function HomepageFeatures() {
             </p>
 
             <p className={styles.hp_cont_1_p2}>
-              We breakdown complicated concepts  into an easy to understand <br />
-              manner through our blogs and video content.
+            We break down complicated concepts into an easy-to-understand manner through our blogs and video content.
             </p>
-            <a href="https://www.youtube.com/c/saiyam911/videos" target="_blank">
-              <button className={styles.hp_cont_y_btn}>
-               LEARN MORE
+            {/* <div className={styles.hp_cont_6_btn1}> */}
+            <a href="https://discord.com/invite/26Z384WSPB" target="_blank">
+              <button className={styles.hp_cont_1_btn}>
+               Learn More
               </button>
             </a>
+            {/* </div> */}
           </div>
           <div className={styles.cont_1_img}>
             <p>Checkout our Blogs</p>

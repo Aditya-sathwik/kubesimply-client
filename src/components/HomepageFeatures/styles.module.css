@@ -121,7 +121,7 @@ a:hover {
     font-size: 15px;
     color: #1B2731;
     border: none;
-    padding: .5rem;
+    padding:  1rem;
     border-radius: 10px;
     cursor : pointer;
 }
@@ -402,6 +402,9 @@ a:hover {
 
 .hp_cont_6_ambassador_image {
     border-radius: 0px;
+}
+.hp_cont_1_btn_div{
+   margin: auto;
 }
 .hp_cont_y_btn {
     background-color: #FF0000; /* YouTube red */
