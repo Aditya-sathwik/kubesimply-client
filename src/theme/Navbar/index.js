@@ -37,8 +37,8 @@ const Navbar = () => {
 
   useEffect(() => {
     if (ExecutionEnvironment.canUseDOM) {
-      setIsMobile(window.innerWidth <= 880);
-      const handleResize = () => setIsMobile(window.innerWidth <= 880);
+      setIsMobile(window.innerWidth <= 2480);
+      const handleResize = () => setIsMobile(window.innerWidth <= 2480);
       window.addEventListener("resize", handleResize);
       return () => window.removeEventListener("resize", handleResize);
     }

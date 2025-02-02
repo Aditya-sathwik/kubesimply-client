@@ -172,7 +172,7 @@ width: 100%;
 
 
 /* ========== RESPONSIVE DESIGN ========== */
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 2480px) {
   .sidebar {
     display: none;
   }

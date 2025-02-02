@@ -17,7 +17,6 @@ import Link from "./assests/Link.png";
 import BlogsContribute from "./assests/BlogsContribute.png";
 import Ambassador from "./assests/Ambassadors.png";
 import workshop from "./assests/workshop.png";
-import backgroundVideo from '@site/src/components/HomepageFeatures/assests/aivedio.mp4';
 
 export default function HomepageFeatures() {
   return (
@@ -25,18 +24,6 @@ export default function HomepageFeatures() {
       <div className={styles.hp}>
         {/* first portion(container) of the homepage */}
         <div className={styles.hp_cont_1}>
-      {/* Local Video Background */}
-      <video 
-        className={styles.video_background}
-        autoPlay
-        muted
-        loop
-        playsInline
-      >
-        <source src={backgroundVideo} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-
           <div className={styles.cont_1_content}>
             <p className={styles.hp_cont_1_p1}>
               On a mission to <br />

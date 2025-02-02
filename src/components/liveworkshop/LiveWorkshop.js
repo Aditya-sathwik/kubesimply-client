@@ -28,6 +28,8 @@ const LiveWorkshop = () => {
               etc. have been started by us, all to <b>demystify</b> complex
               cloud-native concepts and make them simple for anyone to
               understand. <br />
+
+              <strong>Our Kubernetes Workshop, for example, has garnered an incredible 1.7 million views!</strong>
               <br />
               We welcome you to yet another initiative on that path -{" "}
               <b>"Live Workshops"</b>
@@ -63,7 +65,7 @@ const LiveWorkshop = () => {
                 className={styles.video}
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/oiBdx7et21w"
+                src="https://www.youtube.com/embed/PN3VqbZqmD8?si=Vdc_L42Nd58B699K" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               ></iframe>
             </center>
