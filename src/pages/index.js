@@ -13,6 +13,7 @@ import Team from '@site/src/components/team/Team';
 import Sidebar from '../theme/Sidebar';
 import Social from '@site/src/components/Social';
 import Footer from '@site/src/theme/Footer';
+import Sponsers from '../components/Sponsers/Sponsers';
 export default function Home() {
   return (
     <CustomLayout>
@@ -26,6 +27,7 @@ export default function Home() {
       {/* <section id="hero"><Hero /></section> */}
       <section id="criteria"><Criteria /></section>
       <section id="benefits"><Benifits /></section>
+      <section id="Sponsers"><Sponsers /></section>
       {/* <section id="team"><Team heading={"Current Ambassadors"} slider={false} /></section> */}
       {/* <section id="faqs"><FAQs /></section> */}
       <section id="footer"><Footer /></section>

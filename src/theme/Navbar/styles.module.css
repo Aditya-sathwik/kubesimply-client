@@ -19,7 +19,7 @@
 /* ========== DESKTOP SIDEBAR (STATIC) ========== */
 .sidebar {
   width: 20%;
-  height: 100vh;
+  height: 100%;
   background-color: #ffffff;
   position: fixed;
   left: 0;
@@ -167,6 +167,9 @@ width: 100%;
   font-size: 18px;
   display: block;
 }
+
+
+
 
 /* ========== RESPONSIVE DESIGN ========== */
 @media screen and (max-width: 880px) {

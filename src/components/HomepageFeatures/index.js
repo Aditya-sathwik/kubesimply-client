@@ -17,6 +17,7 @@ import Link from "./assests/Link.png";
 import BlogsContribute from "./assests/BlogsContribute.png";
 import Ambassador from "./assests/Ambassadors.png";
 import workshop from "./assests/workshop.png";
+import backgroundVideo from '@site/src/components/HomepageFeatures/assests/aivedio.mp4';
 
 export default function HomepageFeatures() {
   return (
@@ -24,6 +25,18 @@ export default function HomepageFeatures() {
       <div className={styles.hp}>
         {/* first portion(container) of the homepage */}
         <div className={styles.hp_cont_1}>
+      {/* Local Video Background */}
+      <video 
+        className={styles.video_background}
+        autoPlay
+        muted
+        loop
+        playsInline
+      >
+        <source src={backgroundVideo} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
           <div className={styles.cont_1_content}>
             <p className={styles.hp_cont_1_p1}>
               On a mission to <br />
@@ -35,14 +48,12 @@ export default function HomepageFeatures() {
             </p>
 
             <p className={styles.hp_cont_1_p2}>
-              We breakdown complicated concepts of <br />
-              cloud native into an easy to understand <br />
+              We breakdown complicated concepts  into an easy to understand <br />
               manner through our blogs and video content.
             </p>
-
-            <a href="https://discord.gg/26Z384WSPB" target="_blank">
-              <button className={styles.hp_cont_1_btn}>
-                Start learning
+            <a href="https://www.youtube.com/c/saiyam911/videos" target="_blank">
+              <button className={styles.hp_cont_y_btn}>
+               LEARN MORE
               </button>
             </a>
           </div>
@@ -62,7 +73,7 @@ export default function HomepageFeatures() {
                   src={github}
                   alt="github"
                 />
-                  <p>Get Good at Git </p>
+                <p>Get Good at Git </p>
               </a>
             </div>
 
@@ -72,7 +83,7 @@ export default function HomepageFeatures() {
                   src={lego}
                   alt="lego"
                 />
-                  <p>Getting started with Ko</p>
+                <p>Getting started with Ko</p>
               </a>
             </div>
 
@@ -88,112 +99,112 @@ export default function HomepageFeatures() {
         {/* second portion(container) of the homepage */}
         <div className={styles.hp_cont_3}>
           <div className={styles.hp_cont_3_h1}>
-          <h1>Learn Cloud Native,Wasm And Ai</h1>
+            <h1>Learn Cloud Native,Wasm And Ai</h1>
           </div>
           <div className={styles.hp_cont_3_section}>
 
-          <div className={styles.hp_cont_3_vid}>
-            <p className={styles.hp_cont_3_vid_p1}>Youtube</p>
+            <div className={styles.hp_cont_3_vid}>
+              <p className={styles.hp_cont_3_vid_p1}>Youtube</p>
 
-            <h2 className={styles.hp_cont_3_vid_h2}>
-              Video Content
-              <img
-                className={styles.hp_cont_3_vidIcon}
-                src={vidIcon}
-                alt="Video_Icon"
-              />
-            </h2>
+              <h2 className={styles.hp_cont_3_vid_h2}>
+                Video Content
+                <img
+                  className={styles.hp_cont_3_vidIcon}
+                  src={vidIcon}
+                  alt="Video_Icon"
+                />
+              </h2>
 
-            <p className={styles.hp_cont_3_vid_p3}>
-              Learn cloud native technology through our videos - 
-              CNCFMinutes, series, walkthroughs, livestreams and 
-              many more!
-            </p>
+              <p className={styles.hp_cont_3_vid_p3}>
+                Learn cloud native technology through our videos -
+                CNCFMinutes, series, walkthroughs, livestreams and
+                many more!
+              </p>
 
-            <a href="https://www.youtube.com/c/saiyam911" target="_blank">
-              <button className={styles.hp_cont_3_btn1}>
-                <p className={styles.hp_cont_3_btn1_content}>
-                  View Videos
-                  <img
-                    className={styles.hp_cont_3_linkIcon}
-                    src={Link}
-                    alt="link"
-                  />
-                </p>
-              </button>
-            </a>
-          </div>
+              <a href="https://www.youtube.com/c/saiyam911" target="_blank">
+                <button className={styles.hp_cont_3_btn1}>
+                  <p className={styles.hp_cont_3_btn1_content}>
+                    View Videos
+                    <img
+                      className={styles.hp_cont_3_linkIcon}
+                      src={Link}
+                      alt="link"
+                    />
+                  </p>
+                </button>
+              </a>
+            </div>
 
-          <div className={styles.hp_cont_3_blog}>
-            <p className={styles.hp_cont_3_blog_p1}>Hashnode</p>
+            <div className={styles.hp_cont_3_blog}>
+              <p className={styles.hp_cont_3_blog_p1}>Hashnode</p>
 
-            <h2 className={styles.hp_cont_3_blog_h2}>
-              Blog Content
-              <img
-                className={styles.hp_cont_3_blogIcon}
-                src={blogIcon}
-                alt="Blog_Icon"
-              />
-            </h2>
+              <h2 className={styles.hp_cont_3_blog_h2}>
+                Blog Content
+                <img
+                  className={styles.hp_cont_3_blogIcon}
+                  src={blogIcon}
+                  alt="Blog_Icon"
+                />
+              </h2>
 
-            <p className={styles.hp_cont_3_blog_p3}>
-              Learn cloud native technology through our easy to 
-              understand articles where we explain everything in a 
-              simplified way!
-            </p>
+              <p className={styles.hp_cont_3_blog_p3}>
+                Learn cloud native technology through our easy to
+                understand articles where we explain everything in a
+                simplified way!
+              </p>
 
-            <a href="https://blog.kubesimplify.com/" target="_blank">
-              <button className={styles.hp_cont_3_btn2}>
-                <p className={styles.hp_cont_3_btn2_content}>
-                  View Blogs
-                  <img
-                    className={styles.hp_cont_3_linkIcon}
-                    src={Link}
-                    alt="link"
-                  />
-                </p>
-              </button>
-            </a>
-          </div>
+              <a href="https://blog.kubesimplify.com/" target="_blank">
+                <button className={styles.hp_cont_3_btn2}>
+                  <p className={styles.hp_cont_3_btn2_content}>
+                    View Blogs
+                    <img
+                      className={styles.hp_cont_3_linkIcon}
+                      src={Link}
+                      alt="link"
+                    />
+                  </p>
+                </button>
+              </a>
+            </div>
           </div>
 
         </div>
-        
+
         {/* Workshop container start */}
         <div className={styles.hp_cont_4}>
           <div className={styles.hp_cont_4_content}>
 
-          <div className={styles.hp_cont_4_workshop}>
-            <span className={styles.hp_cont_4_p1}>Workshops <span>FREE</span></span>
-            <p className={styles.hp_cont_4_p2}>
-              We regularly organize workshops on various topics like{" "}
-              <span className={styles.hp_cont_4_kubernetes}>
-                {" "}
-                kubernetes , cloud native,Wasm and AI.{" "}
-              </span>
-              These workshops give you insights into the best{" "}
-              <span className={styles.hp_cont_4_projects}>
-                {" "}
-                projects and technologies{" "}
-              </span>{" "}
-              that are useful in the field of cloud native.
-            </p>
-            <button className={styles.hp_cont_4_btn1}>
-              <a href="https://www.youtube.com/live/PN3VqbZqmD8?si=aqvDA40eFSbzx1hY" target="_blank">
-                <p className={styles.hp_cont_4_btn1_content}>Learn more</p>
-              </a>
-            </button>
-          </div>
-          <div className={styles.hp_cont_4_img}>
-            <img
-              src={workshop}
-              alt="workshop"
-            />
-          </div>
+            <div className={styles.hp_cont_4_workshop}>
+              <span className={styles.hp_cont_4_p1}>Workshops <span>FREE</span></span>
+              <p className={styles.hp_cont_4_p2}>
+                We regularly organize workshops on various topics like{" "}
+                <span className={styles.hp_cont_4_kubernetes}>
+                  {" "}
+                  kubernetes , cloud native,Wasm and AI.{" "}
+                </span>
+                These workshops give you insights into the best{" "}
+                <span className={styles.hp_cont_4_projects}>
+                  {" "}
+                  projects and technologies{" "}
+                </span>{" "}
+                that are useful in the field of cloud native.
+              </p>
+              <button className={styles.hp_cont_4_btn1}>
+                <a href="https://www.youtube.com/live/PN3VqbZqmD8?si=aqvDA40eFSbzx1hY" target="_blank">
+                  <p className={styles.hp_cont_4_btn1_content}>Learn more</p>
+                </a>
+              </button>
+            </div>
+            <div className={styles.hp_cont_4_img}>
+              <img
+                src={workshop}
+                alt="workshop"
+              />
+            </div>
           </div>
 
         </div>
-        {/* Workshop container end */}        
+        {/* Workshop container end */}
 
         {/*   Wanna contribute to Blog , container start  */}
         {/* <div className={styles.hp_cont_5}>
@@ -263,11 +274,11 @@ export default function HomepageFeatures() {
         {/* Want to apply, container end*/}
 
         {/* third portion(container) of the homepage */}
-        
+
         <Newsletter />
       </div>
 
-      
+
     </section>
   );
 }

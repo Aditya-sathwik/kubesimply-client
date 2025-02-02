@@ -10,7 +10,7 @@ export default function Social () {
       name: 'Youtube',
       icon: <FaYoutube />,
       color: 'red',
-      title: '1 Million Views Across All Channels',
+      title: 'lorem',
       lines: ['some cases adjustments.', 'solutions from.']
     },
     { 
@@ -18,7 +18,7 @@ export default function Social () {
       name: 'Twitter',
       icon: <FaTwitter />,
       color: '#1da1f2',
-      title: 'Followers more than 10k',
+      title: 'lorem',
       lines: ['reason performance', 'registration tests,']
     },
     { 
@@ -26,7 +26,7 @@ export default function Social () {
       name: 'Instagram',
       icon: <FaInstagram />,
       color: '#e1306c',
-      title: 'morly 10k followers',
+      title: 'lorem',
       lines: ['some cases adjustments.', 'reason performance']
     },
     { 

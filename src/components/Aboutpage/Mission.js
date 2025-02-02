@@ -9,9 +9,9 @@ const AboutpageFeatures = () => {
   <section className={styles.about_features}>
 
   {/* Heading Starts */}
-    <div className={styles.ap_cont_1}>
+    {/* <div className={styles.ap_cont_1}>
         <h2 className={styles.ap_cont_1_heading}> About Us </h2>
-    </div>
+    </div> */}
 
 {/* Mission starts */}
 
